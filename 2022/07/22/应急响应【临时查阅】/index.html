@@ -1,13 +1,13 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>应急响应(临时查阅) | 花火小栈</title><meta name="keywords" content="转载,应急响应,运维,基础"><meta name="author" content="夏日花火"><meta name="copyright" content="夏日花火"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="注意：非本人原创，非本人原创，非本人原创；转载自用 window入侵排查:   事件ID 说明    4624 登录成功   4625 登录失败   4634 注销成功   4647 用户启动的注销   4672 使用超级用户（如管理员）进行登录   4720 创建用户   1.1 检查系统账号安全 检查方法：打开 cmd 窗口，输入lusrmgr.msc命令，查看是否有新增&#x2F;可疑的账号，如有管理">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>应急响应(临时查阅) | 花火小栈</title><meta name="keywords" content="转载,应急响应,运维,基础"><meta name="author" content="夏日花火"><meta name="copyright" content="夏日花火"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="注意：非本人原创，非本人原创，非本人原创；转载自用 window入侵排查:   事件ID 说明    4624 登录成功   4625 登录失败   4634 注销成功   4647 用户启动的注销   4672 使用超级用户（如管理员）进行登录   4720 创建用户    PCHunter是一款强大的内核级监控软件，软件可以查看内核文件、驱动模块、隐藏进程、注册表, 内核，网络等等信息，和PC">
 <meta property="og:type" content="article">
 <meta property="og:title" content="应急响应(临时查阅)">
 <meta property="og:url" content="http://example.com/2022/07/22/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%E3%80%90%E4%B8%B4%E6%97%B6%E6%9F%A5%E9%98%85%E3%80%91/index.html">
 <meta property="og:site_name" content="花火小栈">
-<meta property="og:description" content="注意：非本人原创，非本人原创，非本人原创；转载自用 window入侵排查:   事件ID 说明    4624 登录成功   4625 登录失败   4634 注销成功   4647 用户启动的注销   4672 使用超级用户（如管理员）进行登录   4720 创建用户   1.1 检查系统账号安全 检查方法：打开 cmd 窗口，输入lusrmgr.msc命令，查看是否有新增&#x2F;可疑的账号，如有管理">
+<meta property="og:description" content="注意：非本人原创，非本人原创，非本人原创；转载自用 window入侵排查:   事件ID 说明    4624 登录成功   4625 登录失败   4634 注销成功   4647 用户启动的注销   4672 使用超级用户（如管理员）进行登录   4720 创建用户    PCHunter是一款强大的内核级监控软件，软件可以查看内核文件、驱动模块、隐藏进程、注册表, 内核，网络等等信息，和PC">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/img/5.jpg">
 <meta property="article:published_time" content="2022-07-22T04:00:26.000Z">
-<meta property="article:modified_time" content="2022-07-23T03:29:49.966Z">
+<meta property="article:modified_time" content="2022-07-24T02:25:13.324Z">
 <meta property="article:author" content="夏日花火">
 <meta property="article:tag" content="转载">
 <meta property="article:tag" content="应急响应">
@@ -56,7 +56,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2022-07-23 11:29:49'
+  postUpdate: '2022-07-24 10:25:13'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -146,7 +146,7 @@
     }
     detectApple()
     })(window)</script><link rel="stylesheet" href="iconfont.css"><link rel="stylesheet" href="APlayer.min.css"><div id="aplayer"></div><script src="https://cdn.jsdelivr.net/gh/radium-bit/res@master/live2d/autoload.js" async></script><script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js" async></script><meta name="generator" content="Hexo 6.0.0"><link rel="alternate" href="/atom.xml" title="花火小栈" type="application/atom+xml">
-</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://cdn.jsdelivr.net/gh/m19357/jscdn@V1.0/tit.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">12</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">12</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/timeline/"><i class="fa-fw fa fa-bell"></i><span> 日志</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-list"></i><span> 菜单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/%E5%85%B3%E4%BA%8E"><i class="fa-fw /about/"></i><span> 0</span></a></li><li><a class="site-page child" href="/myself"><i class="fa-fw /myself/"></i><span> 1</span></a></li><li><a class="site-page child" href="/butterfly%E4%B8%BB%E9%A2%98"><i class="fa-fw https://github.com/jerryc127/hexo-theme-butterfly/"></i><span> 2</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/5.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">花火小栈</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/timeline/"><i class="fa-fw fa fa-bell"></i><span> 日志</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-list"></i><span> 菜单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/%E5%85%B3%E4%BA%8E"><i class="fa-fw /about/"></i><span> 0</span></a></li><li><a class="site-page child" href="/myself"><i class="fa-fw /myself/"></i><span> 1</span></a></li><li><a class="site-page child" href="/butterfly%E4%B8%BB%E9%A2%98"><i class="fa-fw https://github.com/jerryc127/hexo-theme-butterfly/"></i><span> 2</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">应急响应(临时查阅)</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-07-22T04:00:26.000Z" title="发表于 2022-07-22 12:00:26">2022-07-22</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-23T03:29:49.966Z" title="更新于 2022-07-23 11:29:49">2022-07-23</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/linux/">linux</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/linux/windows/">windows</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/linux/windows/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94/">应急响应</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/linux/windows/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94/%E8%BF%90%E7%BB%B4/">运维</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="应急响应(临时查阅)"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>注意：非本人原创，非本人原创，非本人原创；转载自用</p>
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://cdn.jsdelivr.net/gh/m19357/jscdn@V1.0/tit.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">12</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">12</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/timeline/"><i class="fa-fw fa fa-bell"></i><span> 日志</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-list"></i><span> 菜单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/%E5%85%B3%E4%BA%8E"><i class="fa-fw /about/"></i><span> 0</span></a></li><li><a class="site-page child" href="/myself"><i class="fa-fw /myself/"></i><span> 1</span></a></li><li><a class="site-page child" href="/butterfly%E4%B8%BB%E9%A2%98"><i class="fa-fw https://github.com/jerryc127/hexo-theme-butterfly/"></i><span> 2</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/5.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">花火小栈</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/timeline/"><i class="fa-fw fa fa-bell"></i><span> 日志</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-list"></i><span> 菜单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/%E5%85%B3%E4%BA%8E"><i class="fa-fw /about/"></i><span> 0</span></a></li><li><a class="site-page child" href="/myself"><i class="fa-fw /myself/"></i><span> 1</span></a></li><li><a class="site-page child" href="/butterfly%E4%B8%BB%E9%A2%98"><i class="fa-fw https://github.com/jerryc127/hexo-theme-butterfly/"></i><span> 2</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">应急响应(临时查阅)</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-07-22T04:00:26.000Z" title="发表于 2022-07-22 12:00:26">2022-07-22</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-24T02:25:13.324Z" title="更新于 2022-07-24 10:25:13">2022-07-24</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/linux/">linux</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/linux/windows/">windows</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/linux/windows/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94/">应急响应</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/linux/windows/%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94/%E8%BF%90%E7%BB%B4/">运维</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="应急响应(临时查阅)"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>注意：非本人原创，非本人原创，非本人原创；转载自用</p>
 <h1 id="window入侵排查"><a href="#window入侵排查" class="headerlink" title="window入侵排查:"></a>window入侵排查:</h1><table>
 <thead>
 <tr>
@@ -179,6 +179,11 @@
 <td align="left">创建用户</td>
 </tr>
 </tbody></table>
+<p> PCHunter是一款强大的内核级监控软件，软件可以查看内核文件、驱动模块、隐藏进程、注册表, 内核，网络等等信息，和PCHunter功能相似的还有火绒剑，PowerTool等。具体的功能有下图所示 数字签名颜色说明：</p>
+<p> 黑色：微软签名的驱动程序； </p>
+<p>蓝色：非微软签名的驱动程序； </p>
+<p>红色：驱动检测到的可疑对象，隐藏服务、进程、被挂钩函数；</p>
+<p>最近打开的文件：%UserProfile%\Recent</p>
 <h1 id="1-1-检查系统账号安全"><a href="#1-1-检查系统账号安全" class="headerlink" title="1.1 检查系统账号安全"></a>1.1 检查系统账号安全</h1><ul>
 <li><p>检查方法：打开 cmd 窗口，输入lusrmgr.msc命令，查看是否有新增/可疑的账号，如有管理员群组的（Administrators）里的新增账户，如有，请立即禁用或删除掉。<br>3、查看服务器是否存在隐藏账号、克隆账号。</p>
 </li>
@@ -192,17 +197,19 @@
 <li>检查方法：a、Win+R打开运行，输入“eventvwr.msc”，回车运行，打开“事件查看器”。b、导出Windows日志–安全，利用Log Parser进行分析。</li>
 <li><em>一、基本查询结构</em>*</li>
 </ul>
-<p><strong>Logparser.exe –i:EVT –o:DATAGRID “SELECT * FROM c:\xx.evtx”</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Logparser.exe –i:EVT –o:DATAGRID <span class="string">&quot;SELECT * FROM c:\xx.evtx&quot;</span></span><br></pre></td></tr></table></figure>
 <p><strong>使用Log Parser分析日志</strong></p>
-<h3 id="1、查询登录成功的事件"><a href="#1、查询登录成功的事件" class="headerlink" title="1、查询登录成功的事件"></a><strong>1、查询登录成功的事件</strong></h3><h4 id="登录成功的所有事件"><a href="#登录成功的所有事件" class="headerlink" title="登录成功的所有事件"></a>登录成功的所有事件</h4><p>LogParser.exe -i:EVT –o:DATAGRID  “SELECT *  FROM c:\Security.evtx where EventID=4624”</p>
-<h4 id="指定登录时间范围的事件："><a href="#指定登录时间范围的事件：" class="headerlink" title="指定登录时间范围的事件："></a>指定登录时间范围的事件：</h4><p>LogParser.exe -i:EVT –o:DATAGRID  “SELECT *  FROM c:\Security.evtx where TimeGenerated&gt;’2018-06-19 23:32:11’ and TimeGenerated&lt;’2018-06-20 23:34:00’ and EventID=4624”</p>
-<h4 id="提取登录成功的用户名和IP："><a href="#提取登录成功的用户名和IP：" class="headerlink" title="提取登录成功的用户名和IP："></a>提取登录成功的用户名和IP：</h4><p>LogParser.exe -i:EVT  –o:DATAGRID  “SELECT EXTRACT_TOKEN(Message,13,’ ‘) as EventType,TimeGenerated as LoginTime,EXTRACT_TOKEN(Strings,5,’|’) as Username,EXTRACT_TOKEN(Message,38,’ ‘) as Loginip FROM c:\Security.evtx where EventID=4624”</p>
-<h3 id="2、查询登录失败的事件"><a href="#2、查询登录失败的事件" class="headerlink" title="2、查询登录失败的事件"></a><strong>2、查询登录失败的事件</strong></h3><h4 id="登录失败的所有事件："><a href="#登录失败的所有事件：" class="headerlink" title="登录失败的所有事件："></a>登录失败的所有事件：</h4><p>LogParser.exe -i:EVT –o:DATAGRID  “SELECT *  FROM c:\Security.evtx where EventID=4625”</p>
-<h4 id="提取登录失败用户名进行聚合统计："><a href="#提取登录失败用户名进行聚合统计：" class="headerlink" title="提取登录失败用户名进行聚合统计："></a>提取登录失败用户名进行聚合统计：</h4><p>LogParser.exe  -i:EVT “SELECT  EXTRACT_TOKEN(Message,13,’ ‘)  as EventType,EXTRACT_TOKEN(Message,19,’ ‘) as user,count(EXTRACT_TOKEN(Message,19,’ ‘)) as Times,EXTRACT_TOKEN(Message,39,’ ‘) as Loginip FROM c:\Security.evtx where EventID=4625 GROUP BY Message”</p>
+<h3 id="1、查询登录成功的事件"><a href="#1、查询登录成功的事件" class="headerlink" title="1、查询登录成功的事件"></a><strong>1、查询登录成功的事件</strong></h3><h4 id="登录成功的所有事件"><a href="#登录成功的所有事件" class="headerlink" title="登录成功的所有事件"></a>登录成功的所有事件</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">LogParser.exe -i:EVT –o:DATAGRID  <span class="string">&quot;SELECT *  FROM c:\Security.evtx where EventID=4624&quot;</span></span><br></pre></td></tr></table></figure>
+<h4 id="指定登录时间范围的事件："><a href="#指定登录时间范围的事件：" class="headerlink" title="指定登录时间范围的事件："></a>指定登录时间范围的事件：</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">LogParser.exe -i:EVT –o:DATAGRID  <span class="string">&quot;SELECT *  FROM c:\Security.evtx where TimeGenerated&gt;&#x27;2018-06-19 23:32:11&#x27; and TimeGenerated&lt;&#x27;2018-06-20 23:34:00&#x27; and EventID=4624&quot;</span></span><br></pre></td></tr></table></figure>
+<h4 id="提取登录成功的用户名和IP："><a href="#提取登录成功的用户名和IP：" class="headerlink" title="提取登录成功的用户名和IP："></a>提取登录成功的用户名和IP：</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">LogParser.exe -i:EVT  –o:DATAGRID  <span class="string">&quot;SELECT EXTRACT_TOKEN(Message,13,&#x27; &#x27;) as EventType,TimeGenerated as LoginTime,EXTRACT_TOKEN(Strings,5,&#x27;|&#x27;) as Username,EXTRACT_TOKEN(Message,38,&#x27; &#x27;) as Loginip FROM c:\Security.evtx where EventID=4624&quot;</span></span><br></pre></td></tr></table></figure>
+<h3 id="2、查询登录失败的事件"><a href="#2、查询登录失败的事件" class="headerlink" title="2、查询登录失败的事件"></a><strong>2、查询登录失败的事件</strong></h3><h4 id="登录失败的所有事件："><a href="#登录失败的所有事件：" class="headerlink" title="登录失败的所有事件："></a>登录失败的所有事件：</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">LogParser.exe -i:EVT –o:DATAGRID  <span class="string">&quot;SELECT *  FROM c:\Security.evtx where EventID=4625&quot;</span></span><br></pre></td></tr></table></figure>
+<h4 id="提取登录失败用户名进行聚合统计："><a href="#提取登录失败用户名进行聚合统计：" class="headerlink" title="提取登录失败用户名进行聚合统计："></a>提取登录失败用户名进行聚合统计：</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">LogParser.exe  -i:EVT <span class="string">&quot;SELECT  EXTRACT_TOKEN(Message,13,&#x27; &#x27;)  as EventType,EXTRACT_TOKEN(Message,19,&#x27; &#x27;) as user,count(EXTRACT_TOKEN(Message,19,&#x27; &#x27;)) as Times,EXTRACT_TOKEN(Message,39,&#x27; &#x27;) as Loginip FROM c:\Security.evtx where EventID=4625 GROUP BY Message&quot;</span></span><br></pre></td></tr></table></figure>
 <p><strong>3、系统历史开关机记录：</strong></p>
-<p>LogParser.exe -i:EVT –o:DATAGRID “SELECT TimeGenerated,EventID,Message FROM c:\System.evtx where EventID=6005 or EventID=6006”</p>
-<h3 id="4-在入侵事件中，我们经常会需要查找“post”请求，判断是否有上传木马文件等行为，或者访问页面中包含“user”、“manager”、“admin”等类似管理员的字段判断是否访问了后台管理页面。"><a href="#4-在入侵事件中，我们经常会需要查找“post”请求，判断是否有上传木马文件等行为，或者访问页面中包含“user”、“manager”、“admin”等类似管理员的字段判断是否访问了后台管理页面。" class="headerlink" title="4.在入侵事件中，我们经常会需要查找“post”请求，判断是否有上传木马文件等行为，或者访问页面中包含“user”、“manager”、“admin”等类似管理员的字段判断是否访问了后台管理页面。"></a><strong>4.在入侵事件中，我们经常会需要查找“post”请求，判断是否有上传木马文件等行为，或者访问页面中包含“user”、“manager”、“admin”等类似管理员的字段判断是否访问了后台管理页面。</strong></h3><p>LogParser.exe -i:IISW3C -o:DATAGRID “SELECT * FROM D:/log/*.log WHERE cs-method=‘POST’”</p>
-<p>LogParser.exe -i:IISW3C -o:DATAGRID “SELECT * FROM D:/log/*.log WHERE cs-uri-stem LIKE ‘%admin%’”</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">LogParser.exe -i:EVT –o:DATAGRID <span class="string">&quot;SELECT TimeGenerated,EventID,Message FROM c:\System.evtx where EventID=6005 or EventID=6006&quot;</span></span><br></pre></td></tr></table></figure>
+<h3 id="4-在入侵事件中，我们经常会需要查找“post”请求，判断是否有上传木马文件等行为，或者访问页面中包含“user”、“manager”、“admin”等类似管理员的字段判断是否访问了后台管理页面。"><a href="#4-在入侵事件中，我们经常会需要查找“post”请求，判断是否有上传木马文件等行为，或者访问页面中包含“user”、“manager”、“admin”等类似管理员的字段判断是否访问了后台管理页面。" class="headerlink" title="4.在入侵事件中，我们经常会需要查找“post”请求，判断是否有上传木马文件等行为，或者访问页面中包含“user”、“manager”、“admin”等类似管理员的字段判断是否访问了后台管理页面。"></a><strong>4.在入侵事件中，我们经常会需要查找“post”请求，判断是否有上传木马文件等行为，或者访问页面中包含“user”、“manager”、“admin”等类似管理员的字段判断是否访问了后台管理页面。</strong></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">LogParser.exe -i:IISW3C -o:DATAGRID “SELECT * FROM D:/<span class="built_in">log</span>/*.<span class="built_in">log</span> WHERE cs-method=‘POST’”</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">LogParser.exe -i:IISW3C -o:DATAGRID “SELECT * FROM D:/<span class="built_in">log</span>/*.<span class="built_in">log</span> WHERE cs-uri-stem LIKE ‘%admin%’”</span><br></pre></td></tr></table></figure>
+
 <table>
 <thead>
 <tr>
@@ -259,15 +266,18 @@
 </tbody></table>
 <h4 id="The-response-size-is-less-than-or-equal-to-2-KB-and-the-response-size-is-from-memory-检查异常端口、进程"><a href="#The-response-size-is-less-than-or-equal-to-2-KB-and-the-response-size-is-from-memory-检查异常端口、进程" class="headerlink" title="The response size is less than or equal to 2 KB, and the response size is from memory. 检查异常端口、进程"></a>The response size is less than or equal to 2 KB, and the response size is from memory. 检查异常端口、进程</h4><p>1、检查端口连接情况，是否有远程连接、可疑连接。</p>
 <ul>
-<li><p>检查方法：a、netstat -ano 查看目前的网络连接，定位可疑的ESTABLISHEDb、根据netstat 定位出的pid，再通过tasklist命令进行进程定位 tasklist | findstr “PID”<br>进程</p>
+<li><p>检查方法：</p>
+</li>
+<li><p>a、netstat -ano</p>
+</li>
+<li><p> 查看目前的网络连接，定位可疑的ESTABLISHEDb、根据netstat 定位出的pid，再通过tasklist命令进行进程定位 tasklist | findstr “PID”<br>进程</p>
 </li>
 <li><p>检查方法：a、开始–运行–输入msinfo32，依次点击“软件环境→正在运行任务”就可以查看到进程的详细信息，比如进程路径、进程ID、文件创建日期、启动时间等。b、打开D盾_web查杀工具，进程查看，关注没有签名信息的进程。c、通过微软官方提供的 Process Explorer 等工具进行排查 。d、查看可疑的进程及其子进程。可以通过观察以下内容：      没有签名验证信息的进程       没有描述信息的进程       进程的属主       进程的路径是否合法       CPU或内存资源占用长时间过高的进程 </p>
 <h1 id="1-3-检查启动项、计划任务、服务"><a href="#1-3-检查启动项、计划任务、服务" class="headerlink" title="1.3 检查启动项、计划任务、服务"></a>1.3 检查启动项、计划任务、服务</h1></li>
 </ul>
 <p>1、检查服务器是否有异常的启动项。</p>
-<ul>
-<li>检查方法：a、登录服务器，单击【开始】&gt;【所有程序】&gt;【启动】，默认情况下此目录在是一个空目录，确认是否有非业务程序在该目录下。 b、单击开始菜单 &gt;【运行】，输入 msconfig，查看是否存在命名异常的启动项目，是则取消勾选命名异常的启动项目，并到命令中显示的路径删除文件。 c、单击【开始】&gt;【运行】，输入 regedit，打开注册表，查看开机启动项是否正常，特别注意如下三个注册表项： HKEY_CURRENT_USER\software\micorsoft\windows\currentversion\run HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Runonce 检查右侧是否有启动异常的项目，如有请删除，并建议安装杀毒软件进行病毒查杀，清除残留病毒或木马。d、利用安全软件查看启动项、开机时间管理等。e、组策略，运行gpedit.msc。<br>查杀，清除残留病毒或木马。d、利用安全软件查看启动项、开机时间管理等。e、组策略，运行gpedit.msc。</li>
-</ul>
+<p>检查方法：a、登录服务器，单击【开始】&gt;【所有程序】&gt;【启动】，默认情况下此目录在是一个空目录，确认是否有非业务程序在该目录下。 b、单击开始菜单 &gt;【运行】，输入 msconfig，查看是否存在命名异常的启动项目，是则取消勾选命名异常的启动项目，并到命令中显示的路径删除文件。 c、单击【开始】&gt;【运行】，输入 regedit，打开注册表，查看开机启动项是否正常，特别注意如下三个注册表项： HKEY_CURRENT_USER\software\micorsoft\windows\currentversion\run HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Runonce 检查右侧是否有启动异常的项目，如有请删除，并建议安装杀毒软件进行病毒查杀，清除残留病毒或木马。d、利用安全软件查看启动项、开机时间管理等。e、组策略，运行gpedit.msc。</p>
+<p>查杀，清除残留病毒或木马。d、利用安全软件查看启动项、开机时间管理等。e、组策略，运行gpedit.msc。</p>
 <h1 id="1-4-检查系统相关信息"><a href="#1-4-检查系统相关信息" class="headerlink" title="1.4 检查系统相关信息"></a>1.4 检查系统相关信息</h1><p>1、查看系统版本以及补丁信息</p>
 <ul>
 <li><p>检查方法：单击【开始】&gt;【运行】，输入systeminfo，查看系统信息<br>2、查找可疑目录及文件</p>
@@ -286,39 +296,35 @@
 <p>who     查看当前登录用户（tty本地登陆  pts远程登录）</p>
 <p>w       查看系统信息，想知道某一时刻用户的行为</p>
 <p>uptime  查看登陆多久、多少用户，负载</p>
-<h2 id="1、查询特权用户特权用户-uid-为0"><a href="#1、查询特权用户特权用户-uid-为0" class="headerlink" title="1、查询特权用户特权用户(uid 为0)"></a>1、查询特权用户特权用户(uid 为0)</h2><p>[root@localhost ~]# awk -F: ‘$3==0{print $1}’ /etc/passwd</p>
-<h2 id="2、查询可以远程登录的帐号信息"><a href="#2、查询可以远程登录的帐号信息" class="headerlink" title="2、查询可以远程登录的帐号信息"></a>2、查询可以远程登录的帐号信息</h2><p>[root@localhost ~]# awk ‘/$1|$6/{print $1}’ /etc/shadow</p>
-<h2 id="3、除root帐号外，其他帐号是否存在sudo权限。如非管理需要，普通帐号应删除sudo权限"><a href="#3、除root帐号外，其他帐号是否存在sudo权限。如非管理需要，普通帐号应删除sudo权限" class="headerlink" title="3、除root帐号外，其他帐号是否存在sudo权限。如非管理需要，普通帐号应删除sudo权限"></a>3、除root帐号外，其他帐号是否存在sudo权限。如非管理需要，普通帐号应删除sudo权限</h2><p>[root@localhost ~]# more /etc/sudoers | grep -v “^#|^$” | grep “ALL=(ALL)”</p>
-<h2 id="4、禁用或删除多余及可疑的帐号"><a href="#4、禁用或删除多余及可疑的帐号" class="headerlink" title="4、禁用或删除多余及可疑的帐号"></a>4、禁用或删除多余及可疑的帐号</h2><p>    usermod -L user    禁用帐号，帐号无法登录，/etc/shadow第二栏为!开头</p>
-<p>    userdel user       删除user用户</p>
-<p>    userdel -r user    将删除user用户，并且将/home目录下的user目录一并删除</p>
+<h2 id="1、查询特权用户特权用户-uid-为0"><a href="#1、查询特权用户特权用户-uid-为0" class="headerlink" title="1、查询特权用户特权用户(uid 为0)"></a>1、查询特权用户特权用户(uid 为0)</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[root@localhost ~]<span class="comment"># awk -F: &#x27;$3==0&#123;print $1&#125;&#x27; /etc/passwd</span></span><br></pre></td></tr></table></figure>
+<h2 id="2、查询可以远程登录的帐号信息"><a href="#2、查询可以远程登录的帐号信息" class="headerlink" title="2、查询可以远程登录的帐号信息"></a>2、查询可以远程登录的帐号信息</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[root@localhost ~]<span class="comment"># awk &#x27;/\$1|\$6/&#123;print $1&#125;&#x27; /etc/shadow</span></span><br></pre></td></tr></table></figure>
+<h2 id="3、除root帐号外，其他帐号是否存在sudo权限。如非管理需要，普通帐号应删除sudo权限"><a href="#3、除root帐号外，其他帐号是否存在sudo权限。如非管理需要，普通帐号应删除sudo权限" class="headerlink" title="3、除root帐号外，其他帐号是否存在sudo权限。如非管理需要，普通帐号应删除sudo权限"></a>3、除root帐号外，其他帐号是否存在sudo权限。如非管理需要，普通帐号应删除sudo权限</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[root@localhost ~]<span class="comment"># more /etc/sudoers | grep -v &quot;^#\|^$&quot; | grep &quot;ALL=(ALL)&quot;</span></span><br></pre></td></tr></table></figure>
+<h2 id="4、禁用或删除多余及可疑的帐号"><a href="#4、禁用或删除多余及可疑的帐号" class="headerlink" title="4、禁用或删除多余及可疑的帐号"></a>4、禁用或删除多余及可疑的帐号</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">usermod -L user   </span><br></pre></td></tr></table></figure>
+<p> 禁用帐号，帐号无法登录，/etc/shadow第二栏为!开头</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">userdel user      </span><br></pre></td></tr></table></figure>
+<p> 删除user用户</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">userdel -r user    </span><br></pre></td></tr></table></figure>
+<p>将删除user用户，并且将/home目录下的user目录一并删除</p>
 <h1 id="2-2历史命令"><a href="#2-2历史命令" class="headerlink" title="2.2历史命令"></a>2.2历史命令</h1><p>通过.bash_history查看帐号执行过的系统命令</p>
 <p>1、root的历史命令</p>
 <p>histroy</p>
 <p>2、打开/home各帐号目录下的.bash_history，查看普通帐号的历史命令</p>
 <h2 id="为历史的命令增加登录的IP地址、执行命令时间等信息："><a href="#为历史的命令增加登录的IP地址、执行命令时间等信息：" class="headerlink" title="为历史的命令增加登录的IP地址、执行命令时间等信息："></a>为历史的命令增加登录的IP地址、执行命令时间等信息：</h2><p>1）保存1万条命令</p>
-<p>sed -i ‘s/^HISTSIZE=1000/HISTSIZE=10000/g’ /etc/profile</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sed -i <span class="string">&#x27;s/^HISTSIZE=1000/HISTSIZE=10000/g&#x27;</span> /etc/profile</span><br></pre></td></tr></table></figure>
 <p>2）在/etc/profile的文件尾部添加如下行数配置信息：</p>
-<p>######jiagu history xianshi#########</p>
-<p>USER_IP=<code>who -u am i 2&gt;/dev/null | awk &#39;&#123;print $NF&#125;&#39; | sed -e &#39;s/[()]//g&#39;</code></p>
-<p>if [ “$USER_IP” = “” ]</p>
-<p>then</p>
-<p>USER_IP=<code>hostname</code></p>
-<p>fi</p>
-<p>export HISTTIMEFORMAT=”%F %T $USER_IP <code>whoami</code> “</p>
-<p>shopt -s histappend</p>
-<p>export PROMPT_COMMAND=”history -a”</p>
-<p>######### jiagu history xianshi ##########</p>
-<p>3）source /etc/profile让配置生效</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">######jiagu history xianshi#########</span></span><br><span class="line">USER_IP=`who -u am i 2&gt;/dev/null | awk <span class="string">&#x27;&#123;print $NF&#125;&#x27;</span> | sed -e <span class="string">&#x27;s/[()]//g&#x27;</span>`</span><br><span class="line"><span class="keyword">if</span> [ <span class="string">&quot;<span class="variable">$USER_IP</span>&quot;</span> = <span class="string">&quot;&quot;</span> ]</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">USER_IP=`hostname`</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="built_in">export</span> HISTTIMEFORMAT=<span class="string">&quot;%F %T <span class="variable">$USER_IP</span> `whoami` &quot;</span></span><br><span class="line"><span class="built_in">shopt</span> -s histappend</span><br><span class="line"><span class="built_in">export</span> PROMPT_COMMAND=<span class="string">&quot;history -a&quot;</span></span><br><span class="line"><span class="comment">######### jiagu history xianshi ##########</span></span><br><span class="line">3）<span class="built_in">source</span> /etc/profile让配置生效</span><br></pre></td></tr></table></figure>
+
 <p>生成效果： 1  2018-07-10 19:45:39 192.168.204.1 root source /etc/profile</p>
 <p>3、历史操作命令的清除：history -c</p>
 <p>但此命令并不会清除保存在文件中的记录，因此需要手动删除.bash_profile文件中的记录。</p>
 <h2 id="导出命令"><a href="#导出命令" class="headerlink" title="导出命令"></a>导出命令</h2><p>进入用户目录下</p>
-<p>cat .bash_history &gt;&gt; history.txt</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cat .bash_history &gt;&gt; history.txt</span><br></pre></td></tr></table></figure>
 <h1 id="1-3-检查异常端口"><a href="#1-3-检查异常端口" class="headerlink" title="1.3 检查异常端口"></a>1.3 检查异常端口</h1><p>使用netstat 网络连接命令，分析可疑端口、IP、PID</p>
-<p>netstat -antlp|more</p>
-<p>查看下pid所对应的进程文件路径，</p>
-<p>运行ls -l /proc/$PID/exe或file /proc/$PID/exe（$PID 为对应的pid 号）</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">netstat -antlp|more</span><br></pre></td></tr></table></figure>
+
+<p>查看下pid所对应的进程文件路径，运行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ls -l /proc/<span class="variable">$PID</span>/exe或file /proc/<span class="variable">$PID</span>/exe（<span class="variable">$PID</span> 为对应的pid 号）</span><br></pre></td></tr></table></figure>
+
 <h1 id="1-4-检查异常进程"><a href="#1-4-检查异常进程" class="headerlink" title="1.4 检查异常进程"></a><strong>1.4 检查异常进程</strong></h1><p>使用ps命令，分析进程 </p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ps aux | grep pid</span><br></pre></td></tr></table></figure>
 
@@ -334,13 +340,16 @@
 <h4 id="-1"><a href="#-1" class="headerlink" title=""></a></h4><h2 id="例子-当我们需要开机启动自己的脚本时，只需要将可执行脚本丢在-etc-init-d目录下，然后在-etc-rc-d-rc-d中建立软链接即可"><a href="#例子-当我们需要开机启动自己的脚本时，只需要将可执行脚本丢在-etc-init-d目录下，然后在-etc-rc-d-rc-d中建立软链接即可" class="headerlink" title="例子:当我们需要开机启动自己的脚本时，只需要将可执行脚本丢在/etc/init.d目录下，然后在/etc/rc.d/rc*.d中建立软链接即可"></a>例子:当我们需要开机启动自己的脚本时，只需要将可执行脚本丢在/etc/init.d目录下，然后在/etc/rc.d/rc*.d中建立软链接即可</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">root@localhost ~]# ln -s /etc/init.d/sshd /etc/rc.d/rc3.d/S100ssh</span><br></pre></td></tr></table></figure>
 
 <p>此处sshd是具体服务的脚本文件，S100ssh是其软链接，S开头代表加载时自启动；如果是K开头的脚本文件，代表运行级别加载时需要关闭的。</p>
-<h2 id="入侵排查："><a href="#入侵排查：" class="headerlink" title="入侵排查："></a><strong>入侵排查：</strong></h2><p>启动项文件： more /etc/rc.local /etc/rc.d/rc[0~6].d ls -l /etc/rc.d/rc3.d/</p>
+<h2 id="入侵排查："><a href="#入侵排查：" class="headerlink" title="入侵排查："></a><strong>入侵排查：</strong></h2><p>启动项文件： </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">more /etc/rc.local /etc/rc.d/rc[0~6].d ls -l /etc/rc.d/rc3.d/</span><br></pre></td></tr></table></figure>
+
 <h1 id="计划任务："><a href="#计划任务：" class="headerlink" title="计划任务："></a>计划任务：</h1><h2 id="基本使用"><a href="#基本使用" class="headerlink" title="基本使用"></a><strong>基本使用</strong></h2><p>1、利用crontab创建计划任务</p>
 <ul>
-<li>基本命令<br>crontab -l 列出某个用户cron服务的详细内容</li>
+<li>基本命令<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">crontab -l 列出某个用户cron服务的详细内容</span><br></pre></td></tr></table></figure></li>
 </ul>
 <p>Tips：默认编写的crontab文件会保存在 (/var/spool/cron/用户名 例如: /var/spool/cron/root</p>
-<p>crontab -r 删除每个用户cront任务(谨慎：删除所有的计划任务)</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">crontab -r 删除每个用户cront任务(谨慎：删除所有的计划任务)</span><br></pre></td></tr></table></figure>
+
 <p>crontab -e 使用编辑器编辑当前的crontab文件</p>
 <p>如：*/1* * echo “hello world” &gt;&gt; /tmp/test.txt 每分钟写入文件</p>
 <p>2、利用anacron实现异步定时任务调度</p>
